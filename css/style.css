@@ -273,7 +273,7 @@ button {
 .banner_section {
     padding-top: 40px;
     padding-bottom: 70px;
-    border-bottom: 80px solid #13a25d;
+    border-bottom: 80px solid #1524f3;
 }
 .banner_main {
     width: 44%;
@@ -977,7 +977,7 @@ textarea#comment::placeholder {
     list-style: none;
 }
 
-li::before {
+.aboutlist li::before {
     content: "\2713"; /* Checkmark symbol */
     color: green;     /* Color of the checkmark */
     margin-right: 10px;
