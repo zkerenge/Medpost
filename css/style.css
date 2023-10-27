@@ -256,6 +256,7 @@ button {
 .logo{ 
     width: 25%;
     float: left;
+    margin-top: -15px;
 }
 
 .mr-auto, .mx-auto {
@@ -273,7 +274,7 @@ button {
 .banner_section {
     padding-top: 40px;
     padding-bottom: 70px;
-    border-bottom: 80px solid #1524f3;
+    border-bottom: 80px solid #0047ab;
 }
 .banner_main {
     width: 44%;
@@ -317,11 +318,11 @@ button {
 }
 .contact_bt a:hover {
     color: #ffffff;
-    background-color: #13a25d;
+    background-color: #0047ab;
 }
 .contact_bt.active a {
     color: #ffffff;
-    background-color: #13a25d;
+    background-color: #0047ab;
 }
 .readmore_bt {
     width: 170px;
@@ -341,7 +342,7 @@ button {
 }
 .readmore_bt a:hover {
     color: #ffffff;
-    background-color: #13a25d;
+    background-color: #0047ab;
 }
 
 .carousel-indicators {
@@ -383,7 +384,7 @@ button {
     position: absolute;
     width: 100px;
     height: 390px;
-    background-color: #13a25d;
+    background-color: #0047ab;
     left: 0px;
     right: initial;
     top: 0;
@@ -448,7 +449,7 @@ button {
 }
 .read_bt a:hover {
     color: #ffffff;
-    background-color: #13a25d;
+    background-color: #0047ab;
 }
 
 /* about section end */
@@ -630,7 +631,7 @@ button {
 }
 .seemore_bt a:hover {
     color: #ffffff;
-    background-color: #13a25d;
+    background-color: #0047ab;
 }
 
 /* events section end */
@@ -719,7 +720,7 @@ textarea#comment::placeholder {
 .send_bt a {
     width: 100%;
     float: left;
-    background-color: #13a25d;
+    background-color: #0047ab;
     color: #ffffff;
     text-align: center;
     padding: 14px 0px;
@@ -774,7 +775,7 @@ textarea#comment::placeholder {
     width: 100%;
     font-size: 20px;
     text-transform: uppercase;
-    color: #13a25d;
+    color: #0047ab;
     font-weight: bold;
     font-family: 'Roboto', sans-serif;
 }
@@ -799,7 +800,7 @@ textarea#comment::placeholder {
 }
 
 .testimonial_box:hover{
-    background-color: #13a25d;
+    background-color: #0047ab;
 }
 .testimonial_box:hover .dummy_text{
     color: #ffffff;
@@ -829,7 +830,7 @@ textarea#comment::placeholder {
 
 #my_carousel .carousel-indicators .active {
     width: 50px;
-    background-color: #13a25d;
+    background-color: #0047ab;
 }
 
 .margin_top90{
@@ -934,7 +935,7 @@ textarea#comment::placeholder {
     width: 100%;
     float: left;
     font-size: 20px;
-    color: #13a25d;
+    color: #0047ab;
     background-color: transparent;
     text-transform: uppercase;
 }
@@ -966,7 +967,7 @@ textarea#comment::placeholder {
     color: #ffffff;
 }
 .copyright_text a:hover {
-    color: #13a25d;
+    color: #0047ab;
 }
 
 
