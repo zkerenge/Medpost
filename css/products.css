@@ -85,3 +85,48 @@
 }
 
 /* JavaScript is required for the filtering and searching functionality */
+
+
+/* CSS for Desktop View */
+/* Your existing desktop styles here */
+
+/* CSS for Tablet View */
+@media (max-width: 768px) {
+   /* Tablet and smaller screens */
+   /* Your existing tablet styles here */
+}
+
+/* CSS for Mobile View */
+@media (max-width: 576px) {
+   /* Mobile phone styles */
+
+   /* Remove the default Bootstrap grid behavior */
+   .row {
+       display: block;
+   }
+
+   /* Adjust the product item layout for a single column */
+   .product {
+       margin: 10px 0;
+       padding: 10px;
+       border: 1px solid #ccc;
+   }
+
+   
+    /* Make the product images auto-fit the screen size */
+    .product img {
+      max-width: 100%;
+      height: auto;
+  }
+
+  /* Autofit product description within the box */
+  .product p {
+   max-height: 100px; /* Adjust the value as needed */
+   overflow: hidden;
+}
+
+ /* Increase font size for improved readability */
+ .product h3, .product p {
+   font-size: 16px; /* Adjust the font size as needed */
+}
+}
