@@ -254,7 +254,7 @@ button {
     color: #070707;
 }
 .logo{ 
-    width: 25%;
+    width: 35%;
     float: left;
     margin-top: -15px;
 }
@@ -623,7 +623,7 @@ button {
     float: left;
     font-size: 16px;
     color: #ffffff;
-    background-color: #181818;
+    background-color: #0047ab;
     text-align: center;
     padding: 10px 0px;
     margin-top: 50px;
@@ -631,7 +631,7 @@ button {
 }
 .seemore_bt a:hover {
     color: #ffffff;
-    background-color: #0047ab;
+    background-color: black;
 }
 
 /* events section end */
@@ -641,7 +641,7 @@ button {
 .contact_section {
     width: 100%;
     float: left;
-    background-image: url(../images/contact-bg.png);
+    background-image: url(../images/contact-bg.jpg);
     height: auto;
     background-repeat: no-repeat;
     background-size: cover;
@@ -651,7 +651,7 @@ button {
     width: 40%;
     float: left;
     font-size: 40px;
-    color: #ffffff;
+    color: black;
     font-weight: bold;
     font-family: 'Roboto', sans-serif;
 }
@@ -660,7 +660,7 @@ button {
     position: absolute;
     width: 193px;
     height: 2px;
-    background-color: #ffffff;
+    background-color: black;
     left: initial;
     right: 0px;
     top: 44%;
@@ -669,7 +669,7 @@ button {
     width: 100%;
     float: left;
     font-size: 16px;
-    color: #ffffff;
+    color: black;
     margin: 0px;
    font-family: 'Roboto', sans-serif;
 }
@@ -984,3 +984,9 @@ textarea#comment::placeholder {
     margin-right: 10px;
     font-weight: bold;
 }
+
+.nav-item.active {
+    font-weight: bold;
+    
+  }
+  

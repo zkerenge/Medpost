@@ -9,7 +9,7 @@
       <meta name="viewport" content="width=device-width, initial-scale=1">
       <meta name="viewport" content="initial-scale=1, maximum-scale=1">
       <!-- site metas -->
-      <title>Events</title>
+      <title>Products</title>
       <meta name="keywords" content="">
       <meta name="description" content="">
       <meta name="author" content="">
@@ -31,6 +31,7 @@
       <link rel="stylesheet" href="css/owl.carousel.min.css">
       <link rel="stylesheet" href="css/owl.theme.default.min.css">
       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.css" media="screen">
+      <link rel="stylesheet" href="css/products.css">
    </head>
    <body>
       <!--header section start -->
@@ -42,14 +43,14 @@
             </button>
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                <ul class="navbar-nav mr-auto">
-                  <li class="nav-item active">
+                  <li class="nav-item">
                      <a class="nav-link" href="index.html">Home</a>
                   </li>
                   <li class="nav-item">
                      <a class="nav-link" href="services.html">Services</a>
                   </li>
-                  <li class="nav-item">
-                     <a class="nav-link" href="events.html">Products</a>
+                  <li class="nav-item active">
+                     <a class="nav-link" href="products.html">Products</a>
                   </li>
                   <li class="nav-item">
                      <a class="nav-link" href="about.html">About</a>
@@ -61,25 +62,96 @@
                      <a class="nav-link" href="contact.html">Contact Us</a>
                   </li>
                </ul>
-               <form class="form-inline my-2 my-lg-0">
-                  <div class="search_icon"><img src="images/search-icon.png"></div>
-               </form>
+               
             </div>
          </nav>
       </div>
       <!--header section end -->
       <!-- events section start -->
-      <div class="events_section layout_padding">
+      <section class="product-section">
+         <div class="product-filter">
+            <button class="filter-button" onclick="filterProducts('all')">All</button>
+            <button class="filter-button" onclick="filterProducts('category1')">Category 1</button>
+            <button class="filter-button" onclick="filterProducts('category2')">Category 2</button>
+            <button class="filter-button" onclick="filterProducts('category3')">Category 3</button>
+        </div>
+        
+        <div class="product-search">
+            <input type="text" id="search-input" placeholder="Search products" oninput="searchProducts()">
+        </div>
          <div class="container">
-            <h1 class="events_taital">Follow Our Video For Solved Your Problem</h1>
-            <div class="events_section_2">
-               <div class="events_bg">
-                  <div class="play_icon"><a href="#"><img src="images/play-icon.png"></a></div>
+             <div class="row">
+                 <!-- Product 1 -->
+                 <div class="col-md-4">
+                  <div class="product category1">
+                      <img src="images/product1.jpg" alt="Product 1">
+                      <h3>Product themo</h3>
+                      <p>Description for Product 1 goes here.</p>
+                      <div class="product-details">
+                          <a href="#" class="inquiry-button">Enquiry</a>
+                      </div>
+                  </div>
+              </div>
+              <!--product 2-->
+              <div class="col-md-4">
+                  <div class="product category2">
+                    <img src="images/product1.jpg" alt="Product 1">
+                    <h3>Product 1</h3>
+                    <p>Description for Product 1 goes here.</p>
+                    <div class="product-details">
+                       <a href="#" class="inquiry-button">Enquiry</a>
+                    </div>
+                  </div>
                </div>
-            </div>
-            <div class="seemore_bt"><a href="#">See More</a></div>
+           
+                 <!-- Product 2 -->
+               <div class="col-md-4">
+                  <div class="product category2">
+                      <img src="images/product1.jpg" alt="Product 1">
+                      <h3>Product 1</h3>
+                      <p>Description for Product 1 goes here.</p>
+                      <div class="product-details">
+                          <a href="#" class="inquiry-button">Enquiry</a>
+                      </div>
+                  </div>
+              </div>
+
+               <div class="col-md-4">
+                  <div class="product category3">
+                     <img src="images/product1.jpg" alt="Product 1">
+                     <h3>Product 1</h3>
+                     <p>Description for Product 1 goes here.</p>
+                     <div class="product-details">
+                        <a href="#" class="inquiry-button">Enquiry</a>
+                     </div>
+                  </div>
+               </div>
+
+               <div class="col-md-4">
+                  <div class="product category1">
+                     <img src="images/product1.jpg" alt="Product 1">
+                     <h3>Product 1</h3>
+                     <p>Description for Product 1 goes here.</p>
+                     <div class="product-details">
+                        <a href="#" class="inquiry-button">Enquiry</a>
+                     </div>
+                  </div>
+               </div>
+
+               <div class="col-md-4">
+                  <div class="product category3">
+                     <img src="images/product1.jpg" alt="Product 1">
+                     <h3>Product 1</h3>
+                     <p>Description for Product 1 goes here.</p>
+                     <div class="product-details">
+                        <a href="#" class="inquiry-button">Enquiry</a>
+                     </div>
+                  </div>
+               </div>
+                 <!-- Add more products here -->
+             </div>
          </div>
-      </div>
+     </section>
       <!-- events section end -->
        <!-- footer section start -->
        <div class="footer_section layout_padding">
@@ -146,5 +218,6 @@
       <!-- javascript --> 
       <script src="js/owl.carousel.js"></script>
       <script src="https:cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.js"></script>
+      <script src="js/products.js"></script>
    </body>
 </html>
